@@ -1,12 +1,17 @@
+import 'react-native-gesture-handler';
 import React from 'react';
-import {View, Text} from 'react-native';
+import {NavigationContainer} from '@react-navigation/native';
+import {createStackNavigator} from '@react-navigation/stack';
+import {Home} from '../Pages';
 
+const Stack = createStackNavigator();
 const Router = () => {
   return (
-    <View>
-      <Text>Hai Selamat Datang</Text>
-      <Text>Aplikasi Pertama</Text>
-    </View>
+    <NavigationContainer>
+      <Stack.Navigator>
+        <Stack.Screen name="Home" component={Home} />
+      </Stack.Navigator>
+    </NavigationContainer>
   );
 };
 
