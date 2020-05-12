@@ -5,6 +5,7 @@ const Router = () => {
   return (
     <View>
       <Text>Hai Selamat Datang</Text>
+      <Text>Aplikasi Pertama</Text>
     </View>
   );
 };
