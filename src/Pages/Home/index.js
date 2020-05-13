@@ -5,6 +5,7 @@ const Home = () => {
   return (
     <View>
       <Text>Hai</Text>
+      <Text>Selamat datang</Text>
     </View>
   );
 };
