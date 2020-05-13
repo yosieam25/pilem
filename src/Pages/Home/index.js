@@ -6,6 +6,7 @@ const Home = () => {
     <View>
       <Text>Hai</Text>
       <Text>Selamat datang</Text>
+      <Text>di pilem aplikasi pertama saya</Text>
     </View>
   );
 };
